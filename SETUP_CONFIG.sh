@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# update 
+sudo apt update
+
 # git confige
 sudo apt -y install git
 cp -v ./.gitconfig  ~/.gitconfig
