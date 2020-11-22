@@ -1,6 +1,19 @@
 #!/bin/bash
 
-chmod u+x .setup_git.sh  .setup_vim.sh
+# git confige
+sudo apt -y install git
+cp -v ./.gitconfig  ~/.gitconfig
 
-./.setup_vim.sh
-./.setup_git.sh
+# vim confige
+sudo apt -y install vim
+cp -v ./.vimrc  ~/.vimrc
+
+# bash confige
+cat ./.bashrc >> ~/.bashrc
+
+# install g++ and gcc
+sudo apt -y install g++
+sudo apt -y install gcc
+
+# install htop
+sudo apt -y install htop

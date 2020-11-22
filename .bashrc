@@ -1,0 +1,6 @@
+alias d='cd /home/soroush/Desktop'
+alias h='cd /home/soroush'
+alias ..='cd ..'
+alias p='ping 8.8.8.8'
+alias e='exit'
+alias cl='clear'
