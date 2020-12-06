@@ -12,7 +12,7 @@ sudo apt -y install vim
 cp -v ./.vimrc  ~/.vimrc
 
 # bash confige
-# cat ./.bashrc >> ~/.bashrc
+cp -v ./.bashrc  ~/.bashrc
 
 # install g++ and gcc
 sudo apt -y install g++
