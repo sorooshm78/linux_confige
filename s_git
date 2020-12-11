@@ -2,14 +2,8 @@
 
 comment=\"$1\"
 
-echo "**************************"
 git status
-echo "**************************"
-
 git add *
-git commit -m$comment
+git commit -m $comment
 git push
-
-echo "**************************"
 git status
-echo "**************************"
