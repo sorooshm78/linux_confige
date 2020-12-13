@@ -6,7 +6,7 @@ sudo apt update
 # git confige
 sudo apt -y install git
 cp -v ./.gitconfig  ~/.gitconfig
-sudo cp s_git /bin
+#sudo cp s_git /bin
 
 # vim confige
 sudo apt -y install vim
